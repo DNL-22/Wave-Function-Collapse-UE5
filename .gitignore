@@ -1,32 +1,60 @@
-# Prerequisites
-*.d
+# Unreal Engine 5 Git Ignore
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Build artifacts
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
 
-# Precompiled Headers
-*.gch
-*.pch
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.user
+*.userprefs
+*.xcodeproj
+*.xcworkspace
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Logs & crash dumps
+*.log
+*.dmp
+*.dump
+*.mdmp
 
-# Fortran module files
-*.mod
-*.smod
+# Backup / autosave files
+*_BuiltData.uasset
+*_BuiltData.umap
+*_Preview.uasset
+*_Preview.umap
+*_AUTOSAVE.*
+*_Backup.*
+*_Temp.*
+*_tmp.*
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Plugin build folders
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
 
-# Executables
-*.exe
-*.out
-*.app
+# Packaged builds
+*.pak
+*.ucas
+*.utoc
+*.sig
+*.apk
+*.ipa
+
+# Engine-specific
+.DS_Store
+Thumbs.db
+
+# Config files that are local-only
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditorUserSettings.ini
